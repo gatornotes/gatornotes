@@ -1,7 +1,3 @@
----
-title: Home
-layout: home
----
 # Measure, Monitor, Manage
 
 ## How We Work
