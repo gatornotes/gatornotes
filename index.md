@@ -2,25 +2,106 @@
 title: Home
 layout: home
 ---
+# Measure, Monitor, Manage
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+## How We Work
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+## Shipping
 
-More specifically, the created site:
+### Measurements: 
+1. CF-MSF per truck 
+2. On Time Delivery 
+3. Partial Shipments
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## Production
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+### Measurements:
 
-To get started with creating a site, just click "[use this template]"!
+1. Speed
+- Machine
+- Shift
+- Plant
+- Product Type by Day and Week
+2. Waste
+- Wet End
+- Peel Waste
+- Core Waste
+- Dry End
+- Trim
+- Chops
+- Produced Waste
+3. Downtime
+- Maintenance
+    By Category
+- Management (Included)
+- Management (Excluded)
+- Operator
+- Other
 
-----
+### Monitor Questions
+1. How are we doing?  
+2. Are we averaging about 2M Sq Ft per shift
+3. What are my largest downtime causes and reasons?
+4. Are we getting good product off the line from shift to shift?
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+## Quality
+
+### Measurements:
+
+1. Credits
+- Credits Submitted
+- Credits Approved
+Measured by Credits Approved as a portion of MSF shipped by Accounting Period
+
+### Monitor
+1. Open Credits
+2. Sum of Material Credits Submitted for by Credit Reason
+3. Days to Approval
+
+### Calendars 
+1. Accounting Period
+2. Calendar Period
+
+## Plant
+
+### Measurements (Volumes and Capacities of Plant)
+
+1. Volume
+- MSF Booked
+- MSF Produced
+    Product 1
+    Product 2
+- MSF Shipped
+
+2. Data Provenance
+
+- Single Source of Truth
+- Relationship between BHS and OMP
+- The Data Dictionary
+
+3. Paper In / Paper Out
+- Rollstock Received
+- Rollstock Consumed
+
+## IS
+
+### Measurements
+- Service calls per week
+- OMP Tickets and Time to Resolution
+- Report
+
+### Monitor
+- Open issues
+- Scheduled Plant Visits
+
+## Reporting and Analysis, Delivery of Information
+- Production Report (Trim, Chop, Throughput, SH Square Feet, FF Square Feet, Paper Changes, Lineal, Minutes Down)
+- Bookings Report (Delivered Monday)
+- MSF Shipped Report (Delivered Monday)
+- Weekly Shipping Report (No. of Trucks Departed, OTD, CF Average, Partial Shipments)
+- Waste Report (Shear, Dry End, Prod Credits, Peel, Core, Ghost Waste, Side Trim, Cap Sheets, Bottom Sheets, Sideout %, Non Production Credits, Ship Credits %, NP Waste) (Delivered Monday)
+
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
 [GitHub Pages]: https://docs.github.com/en/pages
